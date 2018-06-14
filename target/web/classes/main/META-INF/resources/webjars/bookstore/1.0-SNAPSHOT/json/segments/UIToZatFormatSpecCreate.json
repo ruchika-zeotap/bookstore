@@ -1,0 +1,33 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "name": "segment.segmentName",
+      "display_name": "segment.segmentDisplayName",
+      "type": "segment.type.typeId",
+      "description": "segment.segmentDescription",
+      "currency_code": "segment.currencyCode",
+      "global_listprice": "segment.globalListPrice",
+      "environments": "segment.environmentIds",
+      "integration_partners": {
+        "*": {
+          "$": "segments_ip_details[#2].integrationPartner.intId",
+          "@": "segments_ip_details[#2].intPartnerCustomFields"
+        }
+      },
+      "*": {
+        "@": "&1"
+      }
+    }
+  },
+  {
+    "operation": "default",
+    "spec": {
+      "segment": {
+        "status": {
+          "statusId": 4
+        }
+      }
+    }
+  }
+]

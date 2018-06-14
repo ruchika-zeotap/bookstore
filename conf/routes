@@ -1,0 +1,16 @@
+GET           /bookstore/api/v1/books                                                     controllers.BookController.getBooksList
+POST          /bookstore/api/v1/books                                                     controllers.BookController.addBooks
+PUT           /bookstore/api/v1/books/:bookId                                             controllers.BookController.updateBooksList(bookId:Integer)
+DELETE        /bookstore/api/v1/books/:bookId                                             controllers.BookController.deleteBook(bookId:Integer)
+
+GET           /bookstore/api/v1/author                                                     controllers.AuthorController.getAuthorList
+POST          /bookstore/api/v1/author                                                     controllers.AuthorController.addAuthor
+PUT           /bookstore/api/v1/author/:authorId                                           controllers.AuthorController.updateAuthorList(authorId:Integer)
+DELETE        /bookstore/api/v1/author/:authorId                                           controllers.AuthorController.deleteAuthor(authorId:Integer)
+
+GET           /bookstore/api/v1/book-author                                                controllers.BookAuthorMappingController.getMappingList
+POST          /bookstore/api/v1/book-author                                                controllers.BookAuthorMappingController.addMapping
+PUT           /bookstore/api/v1/book-author/:mappingId                                      controllers.BookAuthorMappingController.updateBookAuthorMappingList(mappingId:Integer)
+DELETE        /bookstore/api/v1/book-author/:mappingId                                      controllers.BookAuthorMappingController.deleteBookAuthorMapping(mappingId:Integer)
+
+GET           /bookstore/api/v1/healthcheck                                               controllers.BookController.healthCheck

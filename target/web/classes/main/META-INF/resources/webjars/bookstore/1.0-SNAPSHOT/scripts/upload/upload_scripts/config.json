@@ -1,0 +1,19 @@
+{
+	"DEV" : {
+		"DB_HOST" : "localhost",
+		"DB_NAME" : "test_db",
+		"DB_PASSWORD" : ""
+	},
+
+	"TEST" : {
+		"DB_HOST" : "20.0.0.8",
+		"DB_NAME" : "test_db",
+		"DB_PASSWORD" : "postgres123"
+	},
+
+	"PROD" : {
+		"DB_HOST" : "20.0.0.8",
+		"DB_NAME" : "demo_db",
+		"DB_PASSWORD" : "postgres123"
+	}
+}

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: javax.xml:jaxrpc-api:1.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/javax.xml/jaxrpc-api/jars/jaxrpc-api-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

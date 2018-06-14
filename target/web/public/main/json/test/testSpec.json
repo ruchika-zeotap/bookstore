@@ -1,0 +1,13 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "ratings": {
+        "*": {
+          "$": "Ratings[#2].Name",
+          "@": "Ratings[#2].Value"
+        }
+      }
+    }
+  }
+]

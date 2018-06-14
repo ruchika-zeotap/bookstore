@@ -1,0 +1,16 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "*": {
+        //"categoryMappingId": "&1.categoryMappingId",
+        "cid": {
+          "categoryName": "&2.category_name"
+        },
+        "scid": {
+          "subCategoryName": "&2.sub_category_name"
+        }
+      }
+    }
+  }
+]

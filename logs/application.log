@@ -1,0 +1,33 @@
+2018-06-13 14:37:40,381 [WARN] from application in netty-event-loop-3 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2018-06-13 14:37:41,045 [INFO] from application in netty-event-loop-3 - Creating Pool for datasource 'default'
+2018-06-13 14:37:41,058 [INFO] from com.zaxxer.hikari.HikariDataSource in netty-event-loop-3 - HikariPool-1 - Starting...
+2018-06-13 14:37:41,161 [INFO] from com.zaxxer.hikari.pool.PoolBase in netty-event-loop-3 - HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2018-06-13 14:37:41,178 [INFO] from com.zaxxer.hikari.HikariDataSource in netty-event-loop-3 - HikariPool-1 - Start completed.
+2018-06-13 14:37:41,191 [INFO] from play.api.db.DefaultDBApi in netty-event-loop-3 - Database [default] connected at jdbc:postgresql://localhost:5432/bookstore
+2018-06-13 14:37:41,267 [INFO] from org.reflections.Reflections in netty-event-loop-3 - Reflections took 41 ms to scan 2 urls, producing 12 keys and 143 values 
+2018-06-13 14:37:41,310 [INFO] from io.ebean.internal.DefaultContainer in netty-event-loop-3 - DatabasePlatform name:default platform:postgres
+2018-06-13 14:37:41,984 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2018-06-13 14:37:42,007 [INFO] from play.api.http.EnabledFilters in netty-event-loop-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.gzip.GzipFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.cors.CORSFilter
+
+2018-06-13 14:37:42,070 [INFO] from play.api.Play in netty-event-loop-3 - Application started (Dev)
+2018-06-13 14:37:42,324 [INFO] from controllers.BookAuthorMappingController in application-akka.actor.default-dispatcher-4 - Add mapping request: {"book_id":4,"author_id":4}
+2018-06-13 14:37:42,371 [DEBUG] from io.ebean.SQL in application-akka.actor.default-dispatcher-4 - txn[1001] select t0.book_id, t0.name, t0.version from books t0 where t0.book_id = ?  ; --bind(4, )
+2018-06-13 14:37:42,382 [DEBUG] from io.ebean.SQL in application-akka.actor.default-dispatcher-4 - txn[1002] select t0.author_id, t0.name, t0.gender, t0.age from authors t0 where t0.author_id = ?  ; --bind(4, )
+2018-06-13 14:37:42,382 [ERROR] from controllers.BookAuthorMappingController in application-akka.actor.default-dispatcher-4 - Book id doesn't exist
+2018-06-13 15:05:53,887 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m42s505ms).
+2018-06-13 15:18:21,241 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m57s325ms).
+2018-06-13 17:26:11,628 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m20s17ms).
+2018-06-13 18:08:17,854 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m36s45ms).
+2018-06-13 19:27:54,968 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m6s801ms).
+2018-06-14 00:26:31,161 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h51m23s433ms).
+2018-06-14 08:12:36,525 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h45m35s343ms).
+2018-06-14 08:13:26,745 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s219ms).
+2018-06-14 12:05:49,380 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h52m22s541ms).
+2018-06-14 12:06:17,221 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s935ms), soft-evicting connections from pool.
+2018-06-14 13:06:22,375 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m56s743ms).
+2018-06-14 13:13:27,201 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s777ms).

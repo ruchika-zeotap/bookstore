@@ -1,0 +1,8 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/ruchikagupta/Desktop/Projects/sample-backend/conf/logback.xml,/Users/ruchikagupta/Desktop/Projects/sample-backend/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ruchikagupta/Desktop/Projects/sample-backend/conf/config.properties,/Users/ruchikagupta/Desktop/Projects/sample-backend/target/scala-2.12/classes/config.properties)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ruchikagupta/Desktop/Projects/sample-backend/conf/application.conf,/Users/ruchikagupta/Desktop/Projects/sample-backend/target/scala-2.12/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ruchikagupta/Desktop/Projects/sample-backend/conf/evolutions,/Users/ruchikagupta/Desktop/Projects/sample-backend/target/scala-2.12/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ruchikagupta/Desktop/Projects/sample-backend/conf/routes,/Users/ruchikagupta/Desktop/Projects/sample-backend/target/scala-2.12/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ruchikagupta/Desktop/Projects/sample-backend/conf/evolutions/default,/Users/ruchikagupta/Desktop/Projects/sample-backend/target/scala-2.12/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ruchikagupta/Desktop/Projects/sample-backend/conf/evolutions/default/1.sql,/Users/ruchikagupta/Desktop/Projects/sample-backend/target/scala-2.12/classes/evolutions/default/1.sql)[0m

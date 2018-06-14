@@ -1,0 +1,5 @@
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download" ;*/*:dumpStructureTo /private/var/folders/1h/k78k3y2j0wzc0s1vh59bt6l40000gn/T/sbt-structure.xml; session clear-all
+all {file:/Users/ruchikagupta/Desktop/Projects/sample-backend/}root/products {file:/Users/ruchikagupta/Desktop/Projects/sample-backend/}root/test:products
+exit
+\q
+exit
